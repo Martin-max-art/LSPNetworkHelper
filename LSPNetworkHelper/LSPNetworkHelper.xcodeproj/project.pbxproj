@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0674D1815D46F9E5E26CD618 /* libPods-LSPNetworkHelperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C718FB43B6A2D3031A5AF /* libPods-LSPNetworkHelperUITests.a */; };
+		DEE1103E730D9D23905C4214 /* libPods-LSPNetworkHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14675F216E8E72DEF92EE98A /* libPods-LSPNetworkHelper.a */; };
+		F33D18131E35B418008045DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D18121E35B418008045DE /* main.m */; };
+		F33D18161E35B418008045DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D18151E35B418008045DE /* AppDelegate.m */; };
+		F33D18191E35B418008045DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D18181E35B418008045DE /* ViewController.m */; };
+		F33D181C1E35B418008045DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33D181A1E35B418008045DE /* Main.storyboard */; };
+		F33D181E1E35B418008045DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33D181D1E35B418008045DE /* Assets.xcassets */; };
+		F33D18211E35B418008045DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33D181F1E35B418008045DE /* LaunchScreen.storyboard */; };
+		F33D182C1E35B418008045DE /* LSPNetworkHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D182B1E35B418008045DE /* LSPNetworkHelperTests.m */; };
+		F33D18371E35B418008045DE /* LSPNetworkHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D18361E35B418008045DE /* LSPNetworkHelperUITests.m */; };
+		F33D18471E35D810008045DE /* LSPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D18461E35D810008045DE /* LSPNetworkHelper.m */; };
+		F35A02601E36F3070034E00D /* LSPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F35A025F1E36F3070034E00D /* LSPNetworkCache.m */; };
+		F37C191A1E38428B003743AA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C19191E38428B003743AA /* libsqlite3.0.tbd */; };
+		F89F95383C77ADF252345A76 /* libPods-LSPNetworkHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD64F1E53DE15703F68E31D3 /* libPods-LSPNetworkHelperTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F33D18281E35B418008045DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33D18061E35B418008045DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33D180D1E35B418008045DE;
+			remoteInfo = LSPNetworkHelper;
+		};
+		F33D18331E35B418008045DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33D18061E35B418008045DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33D180D1E35B418008045DE;
+			remoteInfo = LSPNetworkHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14675F216E8E72DEF92EE98A /* libPods-LSPNetworkHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSPNetworkHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B3F798E84E194A462C44BB /* Pods-LSPNetworkHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelperUITests/Pods-LSPNetworkHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F1B1DD2E7494F21BEB61BD2 /* Pods-LSPNetworkHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelperUITests/Pods-LSPNetworkHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC639465C57C07B8DAAB02D /* Pods-LSPNetworkHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelperTests/Pods-LSPNetworkHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		626ABA33A0CE1D8FA8738318 /* Pods-LSPNetworkHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelper/Pods-LSPNetworkHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		85DBEB668BA291AC6087C0D8 /* Pods-LSPNetworkHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelper/Pods-LSPNetworkHelper.release.xcconfig"; sourceTree = "<group>"; };
+		920C718FB43B6A2D3031A5AF /* libPods-LSPNetworkHelperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSPNetworkHelperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977642456421DE6A5B842A9C /* Pods-LSPNetworkHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSPNetworkHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSPNetworkHelperTests/Pods-LSPNetworkHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD64F1E53DE15703F68E31D3 /* libPods-LSPNetworkHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSPNetworkHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33D180E1E35B418008045DE /* LSPNetworkHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSPNetworkHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33D18121E35B418008045DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F33D18141E35B418008045DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F33D18151E35B418008045DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F33D18171E35B418008045DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F33D18181E35B418008045DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F33D181B1E35B418008045DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F33D181D1E35B418008045DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33D18201E35B418008045DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F33D18221E35B418008045DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33D18271E35B418008045DE /* LSPNetworkHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSPNetworkHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33D182B1E35B418008045DE /* LSPNetworkHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPNetworkHelperTests.m; sourceTree = "<group>"; };
+		F33D182D1E35B418008045DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33D18321E35B418008045DE /* LSPNetworkHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSPNetworkHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33D18361E35B418008045DE /* LSPNetworkHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPNetworkHelperUITests.m; sourceTree = "<group>"; };
+		F33D18381E35B418008045DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33D18451E35D810008045DE /* LSPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPNetworkHelper.h; sourceTree = "<group>"; };
+		F33D18461E35D810008045DE /* LSPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPNetworkHelper.m; sourceTree = "<group>"; };
+		F35A025E1E36F3070034E00D /* LSPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPNetworkCache.h; sourceTree = "<group>"; };
+		F35A025F1E36F3070034E00D /* LSPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPNetworkCache.m; sourceTree = "<group>"; };
+		F37C19191E38428B003743AA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F33D180B1E35B418008045DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37C191A1E38428B003743AA /* libsqlite3.0.tbd in Frameworks */,
+				DEE1103E730D9D23905C4214 /* libPods-LSPNetworkHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D18241E35B418008045DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F95383C77ADF252345A76 /* libPods-LSPNetworkHelperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D182F1E35B418008045DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0674D1815D46F9E5E26CD618 /* libPods-LSPNetworkHelperUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5534361D7BBB35080556C787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				626ABA33A0CE1D8FA8738318 /* Pods-LSPNetworkHelper.debug.xcconfig */,
+				85DBEB668BA291AC6087C0D8 /* Pods-LSPNetworkHelper.release.xcconfig */,
+				977642456421DE6A5B842A9C /* Pods-LSPNetworkHelperTests.debug.xcconfig */,
+				5DC639465C57C07B8DAAB02D /* Pods-LSPNetworkHelperTests.release.xcconfig */,
+				2F1B1DD2E7494F21BEB61BD2 /* Pods-LSPNetworkHelperUITests.debug.xcconfig */,
+				25B3F798E84E194A462C44BB /* Pods-LSPNetworkHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E974F43F39CC435F8660B0D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F37C19191E38428B003743AA /* libsqlite3.0.tbd */,
+				14675F216E8E72DEF92EE98A /* libPods-LSPNetworkHelper.a */,
+				BD64F1E53DE15703F68E31D3 /* libPods-LSPNetworkHelperTests.a */,
+				920C718FB43B6A2D3031A5AF /* libPods-LSPNetworkHelperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33D18051E35B418008045DE = {
+			isa = PBXGroup;
+			children = (
+				F33D18101E35B418008045DE /* LSPNetworkHelper */,
+				F33D182A1E35B418008045DE /* LSPNetworkHelperTests */,
+				F33D18351E35B418008045DE /* LSPNetworkHelperUITests */,
+				F33D180F1E35B418008045DE /* Products */,
+				5534361D7BBB35080556C787 /* Pods */,
+				E974F43F39CC435F8660B0D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F33D180F1E35B418008045DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33D180E1E35B418008045DE /* LSPNetworkHelper.app */,
+				F33D18271E35B418008045DE /* LSPNetworkHelperTests.xctest */,
+				F33D18321E35B418008045DE /* LSPNetworkHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33D18101E35B418008045DE /* LSPNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F33D18441E35D671008045DE /* LSPNetworkHelperTool */,
+				F33D18141E35B418008045DE /* AppDelegate.h */,
+				F33D18151E35B418008045DE /* AppDelegate.m */,
+				F33D18171E35B418008045DE /* ViewController.h */,
+				F33D18181E35B418008045DE /* ViewController.m */,
+				F33D181A1E35B418008045DE /* Main.storyboard */,
+				F33D181D1E35B418008045DE /* Assets.xcassets */,
+				F33D181F1E35B418008045DE /* LaunchScreen.storyboard */,
+				F33D18221E35B418008045DE /* Info.plist */,
+				F33D18111E35B418008045DE /* Supporting Files */,
+			);
+			path = LSPNetworkHelper;
+			sourceTree = "<group>";
+		};
+		F33D18111E35B418008045DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F33D18121E35B418008045DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F33D182A1E35B418008045DE /* LSPNetworkHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F33D182B1E35B418008045DE /* LSPNetworkHelperTests.m */,
+				F33D182D1E35B418008045DE /* Info.plist */,
+			);
+			path = LSPNetworkHelperTests;
+			sourceTree = "<group>";
+		};
+		F33D18351E35B418008045DE /* LSPNetworkHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F33D18361E35B418008045DE /* LSPNetworkHelperUITests.m */,
+				F33D18381E35B418008045DE /* Info.plist */,
+			);
+			path = LSPNetworkHelperUITests;
+			sourceTree = "<group>";
+		};
+		F33D18441E35D671008045DE /* LSPNetworkHelperTool */ = {
+			isa = PBXGroup;
+			children = (
+				F33D18451E35D810008045DE /* LSPNetworkHelper.h */,
+				F33D18461E35D810008045DE /* LSPNetworkHelper.m */,
+				F35A025E1E36F3070034E00D /* LSPNetworkCache.h */,
+				F35A025F1E36F3070034E00D /* LSPNetworkCache.m */,
+			);
+			path = LSPNetworkHelperTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F33D180D1E35B418008045DE /* LSPNetworkHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33D183B1E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelper" */;
+			buildPhases = (
+				BD561486BA2BBB58A8D531BC /* [CP] Check Pods Manifest.lock */,
+				F33D180A1E35B418008045DE /* Sources */,
+				F33D180B1E35B418008045DE /* Frameworks */,
+				F33D180C1E35B418008045DE /* Resources */,
+				512892694053B7CD8583F8AD /* [CP] Embed Pods Frameworks */,
+				CA2A8BEFA8C1F05774FD7704 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSPNetworkHelper;
+			productName = LSPNetworkHelper;
+			productReference = F33D180E1E35B418008045DE /* LSPNetworkHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F33D18261E35B418008045DE /* LSPNetworkHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33D183E1E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelperTests" */;
+			buildPhases = (
+				5E543A05D6A2FEBE3073C7BD /* [CP] Check Pods Manifest.lock */,
+				F33D18231E35B418008045DE /* Sources */,
+				F33D18241E35B418008045DE /* Frameworks */,
+				F33D18251E35B418008045DE /* Resources */,
+				C05B69743A1B02946F2FBEA0 /* [CP] Embed Pods Frameworks */,
+				D780036B7412B01AE3EC3F64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33D18291E35B418008045DE /* PBXTargetDependency */,
+			);
+			name = LSPNetworkHelperTests;
+			productName = LSPNetworkHelperTests;
+			productReference = F33D18271E35B418008045DE /* LSPNetworkHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F33D18311E35B418008045DE /* LSPNetworkHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33D18411E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelperUITests" */;
+			buildPhases = (
+				DF60AC9A73AAB0C4D77C170F /* [CP] Check Pods Manifest.lock */,
+				F33D182E1E35B418008045DE /* Sources */,
+				F33D182F1E35B418008045DE /* Frameworks */,
+				F33D18301E35B418008045DE /* Resources */,
+				391976E7BAB9FA8EC7B991E7 /* [CP] Embed Pods Frameworks */,
+				77DB4DC7DA999029663C86C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33D18341E35B418008045DE /* PBXTargetDependency */,
+			);
+			name = LSPNetworkHelperUITests;
+			productName = LSPNetworkHelperUITests;
+			productReference = F33D18321E35B418008045DE /* LSPNetworkHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F33D18061E35B418008045DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSP;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lishaopeng;
+				TargetAttributes = {
+					F33D180D1E35B418008045DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F33D18261E35B418008045DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F33D180D1E35B418008045DE;
+					};
+					F33D18311E35B418008045DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F33D180D1E35B418008045DE;
+					};
+				};
+			};
+			buildConfigurationList = F33D18091E35B418008045DE /* Build configuration list for PBXProject "LSPNetworkHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F33D18051E35B418008045DE;
+			productRefGroup = F33D180F1E35B418008045DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33D180D1E35B418008045DE /* LSPNetworkHelper */,
+				F33D18261E35B418008045DE /* LSPNetworkHelperTests */,
+				F33D18311E35B418008045DE /* LSPNetworkHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33D180C1E35B418008045DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33D18211E35B418008045DE /* LaunchScreen.storyboard in Resources */,
+				F33D181E1E35B418008045DE /* Assets.xcassets in Resources */,
+				F33D181C1E35B418008045DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D18251E35B418008045DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D18301E35B418008045DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391976E7BAB9FA8EC7B991E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelperUITests/Pods-LSPNetworkHelperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512892694053B7CD8583F8AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelper/Pods-LSPNetworkHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E543A05D6A2FEBE3073C7BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77DB4DC7DA999029663C86C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelperUITests/Pods-LSPNetworkHelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD561486BA2BBB58A8D531BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C05B69743A1B02946F2FBEA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelperTests/Pods-LSPNetworkHelperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2A8BEFA8C1F05774FD7704 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelper/Pods-LSPNetworkHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D780036B7412B01AE3EC3F64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSPNetworkHelperTests/Pods-LSPNetworkHelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF60AC9A73AAB0C4D77C170F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F33D180A1E35B418008045DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33D18191E35B418008045DE /* ViewController.m in Sources */,
+				F33D18161E35B418008045DE /* AppDelegate.m in Sources */,
+				F33D18471E35D810008045DE /* LSPNetworkHelper.m in Sources */,
+				F33D18131E35B418008045DE /* main.m in Sources */,
+				F35A02601E36F3070034E00D /* LSPNetworkCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D18231E35B418008045DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33D182C1E35B418008045DE /* LSPNetworkHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33D182E1E35B418008045DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33D18371E35B418008045DE /* LSPNetworkHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F33D18291E35B418008045DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33D180D1E35B418008045DE /* LSPNetworkHelper */;
+			targetProxy = F33D18281E35B418008045DE /* PBXContainerItemProxy */;
+		};
+		F33D18341E35B418008045DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33D180D1E35B418008045DE /* LSPNetworkHelper */;
+			targetProxy = F33D18331E35B418008045DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F33D181A1E35B418008045DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33D181B1E35B418008045DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F33D181F1E35B418008045DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33D18201E35B418008045DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F33D18391E35B418008045DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F33D183A1E35B418008045DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F33D183C1E35B418008045DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626ABA33A0CE1D8FA8738318 /* Pods-LSPNetworkHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSPNetworkHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F33D183D1E35B418008045DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DBEB668BA291AC6087C0D8 /* Pods-LSPNetworkHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSPNetworkHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F33D183F1E35B418008045DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977642456421DE6A5B842A9C /* Pods-LSPNetworkHelperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSPNetworkHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSPNetworkHelper.app/LSPNetworkHelper";
+			};
+			name = Debug;
+		};
+		F33D18401E35B418008045DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC639465C57C07B8DAAB02D /* Pods-LSPNetworkHelperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSPNetworkHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSPNetworkHelper.app/LSPNetworkHelper";
+			};
+			name = Release;
+		};
+		F33D18421E35B418008045DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1B1DD2E7494F21BEB61BD2 /* Pods-LSPNetworkHelperUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LSPNetworkHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSPNetworkHelper;
+			};
+			name = Debug;
+		};
+		F33D18431E35B418008045DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B3F798E84E194A462C44BB /* Pods-LSPNetworkHelperUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LSPNetworkHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanju.LSPNetworkHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSPNetworkHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F33D18091E35B418008045DE /* Build configuration list for PBXProject "LSPNetworkHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33D18391E35B418008045DE /* Debug */,
+				F33D183A1E35B418008045DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33D183B1E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33D183C1E35B418008045DE /* Debug */,
+				F33D183D1E35B418008045DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33D183E1E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33D183F1E35B418008045DE /* Debug */,
+				F33D18401E35B418008045DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33D18411E35B418008045DE /* Build configuration list for PBXNativeTarget "LSPNetworkHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33D18421E35B418008045DE /* Debug */,
+				F33D18431E35B418008045DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F33D18061E35B418008045DE /* Project object */;
+}
