@@ -3,7 +3,7 @@
 //  LSPNetworkHelperUITests
 //
 //  Created by lishaopeng on 17/1/23.
-//  Copyright © 2017年 lishaopeng. All rights reserved.
+//  Copyright © 2016年 lishaopeng. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

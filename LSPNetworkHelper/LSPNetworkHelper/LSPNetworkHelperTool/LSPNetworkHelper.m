@@ -3,7 +3,7 @@
 //  LSPNetworkHelper
 //
 //  Created by lishaopeng on 16/8/23.
-//  Copyright © 2017年 lishaopeng. All rights reserved.
+//  Copyright © 2016年 lishaopeng. All rights reserved.
 //
 
 #import "LSPNetworkHelper.h"
@@ -272,7 +272,7 @@ static AFHTTPSessionManager *_sessionManager;
  *新建NSDictionary与NSArray的分类, 控制台打印json数据中的中文
  ************************************************************************************
  */
-#ifdef DEBUG
+//#ifdef DEBUG
 @implementation NSArray (LSP)
 
 - (NSString *)descriptionWithLocale:(id)locale{
@@ -299,4 +299,4 @@ static AFHTTPSessionManager *_sessionManager;
 }
 
 @end
-#endif
+//#endif
