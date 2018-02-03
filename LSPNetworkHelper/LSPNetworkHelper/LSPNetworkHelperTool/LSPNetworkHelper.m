@@ -170,7 +170,7 @@ static AFHTTPSessionManager *_sessionManager;
 #pragma mark -- 下载文件
 +(NSURLSessionTask *)downloadWithURLStr:(NSString *)URLStr fileDir:(NSString *)fileDir progress:(LSPHttpProgress)progress success:(LSPHttpRequestSuccess)success failure:(LSPHttpRequestFailed)failure{
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URLStr]];
-    NSURLSessionDownloadTask *downloadTask = [_sessionManager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
+   __block NSURLSessionDownloadTask *downloadTask = [_sessionManager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
         
         LSLog(@"下载进度:%.2f%%",100.0*downloadProgress.completedUnitCount / downloadProgress.totalUnitCount);
         
